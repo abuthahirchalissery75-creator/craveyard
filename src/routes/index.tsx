@@ -196,17 +196,17 @@ function Hero() {
             transition={{ duration: 1.2, delay: 0.6, ease: [0.2, 0.8, 0.2, 1] }}
             className="max-w-5xl font-display text-[13vw] leading-[0.95] text-cream sm:text-[9vw] lg:text-[7.2vw] text-balance"
           >
-            Where every craving <br />
-            <span className="italic gold-gradient-text">finds its home.</span>
+            Craveyard <br />
+            <span className="italic gold-gradient-text">  Where every craving<span className="ml-5"></span> finds its home.</span>
           </motion.h1>
 
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 1 }}
-            className="mt-8 max-w-xl text-lg text-cream/70 text-pretty"
+            className="mt-8 max-w-xl text-xs text-cream/70 text-pretty"
           >
-            Made with quality. Served with warmth. Welcome to the family.
+            {/* Made with quality. Served with warmth. Welcome to the family. */}
           </motion.p>
 
           <motion.div
@@ -225,7 +225,7 @@ function Hero() {
             initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.6, duration: 1 }}
             className="hidden sm:flex items-center gap-6 text-xs uppercase tracking-[0.25em] text-cream/50"
           >
-            <span>Open · 4:00 PM – 3:00 AM</span>
+            <span>Open · 12:00 PM – 1:00 AM</span>
             <span className="h-px w-8 bg-cream/30" />
             <span>Dine · Delivery · Reserve</span>
           </motion.div>
