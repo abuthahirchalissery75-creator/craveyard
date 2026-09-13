@@ -82,14 +82,14 @@ function MenuPage() {
             Everything we <span className="italic gold-gradient-text">cook with fire.</span>
           </h1>
           <p className="mt-6 max-w-xl text-lg text-muted-foreground text-pretty">
-            Mandi, shawaya, alfaham, biryani, wok plates, breads, shakes and cold-pressed
-            juices — served every day in Edachira, Kochi from 11:00 AM to 11:30 PM.
+            Mandi, shawaya, alfaham, breads, shakes and cold-pressed
+            juices — served every day in Edachira, Kochi from 12:00 PM to 01:00 AM.
           </p>
           <div className="mt-10 flex flex-wrap gap-3">
             <Link to="/" hash="reserve" className="btn-gold">
               Reserve a table <ArrowUpRight className="size-4" />
             </Link>
-            <a href="tel:+910000000000" className="btn-ghost">Call to order</a>
+            <a href="tel:+916238575390" className="btn-ghost">Call to order</a>
           </div>
         </div>
       </section>

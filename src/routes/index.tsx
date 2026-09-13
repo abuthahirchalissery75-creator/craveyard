@@ -197,7 +197,7 @@ function Hero() {
             className="max-w-5xl font-display text-[13vw] leading-[0.95] text-cream sm:text-[9vw] lg:text-[7.2vw] text-balance"
           >
             Craveyard <br />
-            <span className="italic gold-gradient-text">  Where every craving<span className="ml-5"></span> finds its home.</span>
+            <span className="italic gold-gradient-text">  Where every craving finds its home.</span>
           </motion.h1>
 
           <motion.p
@@ -977,7 +977,7 @@ function OwnerSection() {
             <div className="absolute inset-0 bg-gradient-to-t from-ink via-transparent to-transparent" />
             <div className="absolute bottom-6 left-6 right-6 flex items-end justify-between">
               <div>
-                <div className="font-display text-2xl text-cream">The Host</div>
+                <div className="font-display text-2xl text-cream">Bhagya Raj</div>
                 <div className="text-xs uppercase tracking-[0.25em] text-gold">Founder · Craveyard</div>
               </div>
             </div>
@@ -1140,7 +1140,7 @@ Thank you.
 
             <div className="flex items-center gap-3">
               <Clock className="size-4 text-gold" />
-              11:00 AM — 11:30 PM · Every day
+              12:00 PM — 01:00 PM · Every day
             </div>
 
             <div className="flex items-center gap-3">
@@ -1202,28 +1202,28 @@ Thank you.
               required
             />
 
-            <Field
+            {/* <Field
               label="Occasion"
               name="occasion"
               value={form.occasion}
               onChange={handleChange}
               placeholder="Birthday, family, casual..."
-            />
+            /> */}
           </div>
 
           <div>
-            <label className="block text-xs uppercase tracking-[0.25em] text-muted-foreground mb-2">
+            {/* <label className="block text-xs uppercase tracking-[0.25em] text-muted-foreground mb-2">
               Notes for the kitchen
-            </label>
+            </label> */}
 
-            <textarea
+            {/* <textarea
               rows={3}
               name="notes"
               value={form.notes}
               onChange={handleChange}
               placeholder="Allergies, seating preference..."
               className="w-full bg-transparent border-b border-border focus:border-gold outline-none py-3 text-cream placeholder:text-muted-foreground/60"
-            />
+            /> */}
           </div>
 
           <div className="pt-4 flex items-center justify-between gap-4 flex-wrap">
@@ -1356,8 +1356,8 @@ function Footer() {
             <div className="eyebrow mb-4">Visit</div>
             <ul className="space-y-3 text-cream/80 text-sm">
               <li className="flex items-start gap-3"><MapPin className="size-4 mt-0.5 text-gold shrink-0"/>Edachira, Kochi, Kerala</li>
-              <li className="flex items-start gap-3"><Clock className="size-4 mt-0.5 text-gold shrink-0"/>11:00 AM – 11:30 PM · Everyday</li>
-              <li className="flex items-start gap-3"><Phone className="size-4 mt-0.5 text-gold shrink-0"/>+91 000 000 0000</li>
+              <li className="flex items-start gap-3"><Clock className="size-4 mt-0.5 text-gold shrink-0"/>12:00 PM – 01:00 AM · Everyday</li>
+              <li className="flex items-start gap-3"><Phone className="size-4 mt-0.5 text-gold shrink-0"/>+91 62385 75390</li>
             </ul>
           </div>
         </div>
