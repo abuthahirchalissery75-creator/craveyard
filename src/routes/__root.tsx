@@ -64,7 +64,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 
     // SEO
     {
-      title: "Craveyard — Premium Mandi & Arabian Restaurant in Kochi",
+      title: "Craveyard — Premium Mandi & Arabian Restaurant in Kochi ",
     },
     {
       name: "description",
